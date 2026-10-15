@@ -23,7 +23,7 @@ jobs:
           echo "=== ROOT ==="
           ls -la
           echo "=== www ==="
-          ls -la www
+          ls -la game
 
       - name: Install npm dependencies
         run: npm install
